@@ -1,0 +1,8 @@
+JK_SCALED_standing007_kinematics.mot
+nRows=2
+nColumns=34
+inDegrees=yes
+endheader
+time	pelvis_rotation	pelvis_obliquity	pelvis_tilt	pelvis_tx	pelvis_ty	pelvis_tz	hip_flexion_r	hip_adduction_r	hip_rotation_r	knee_angle_r	ankle_angle_r	subtalar_angle_r	mtp_angle_r	hip_flexion_l	hip_adduction_l	hip_rotation_l	knee_angle_l	ankle_angle_l	subtalar_angle_l	mtp_angle_l	lumbar_extension	lumbar_bending	lumbar_rotation	arm_flex_r	arm_add_r	arm_rot_r	elbow_flex_r	pro_sup_r	arm_flex_l	arm_add_l	arm_rot_l	elbow_flex_l	pro_sup_l
+   0.00000    0.00000    0.00423   -6.75620    0.00000    1.05627    0.00000    6.59434    0.22714    3.86804   -0.20679    1.10869   -0.65410    2.13408    6.59655    0.21019    2.34336   -0.20649    1.11685   -0.60743    2.14353    3.06523    0.01981   -0.10117    1.70246   -0.23537   -0.01293    5.23603   89.90913    1.70169   -0.20284   -0.01255    5.23897   89.90938
+   0.50000    0.00000    0.00423   -6.75620    0.00000    1.05627    0.00000    6.59434    0.22714    3.86804   -0.20679    1.10869   -0.65410    2.13408    6.59655    0.21019    2.34336   -0.20649    1.11685   -0.60743    2.14353    3.06523    0.01981   -0.10117    1.70246   -0.23537   -0.01293    5.23603   89.90913    1.70169   -0.20284   -0.01255    5.23897   89.90938

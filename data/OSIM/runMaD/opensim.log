@@ -1,0 +1,10 @@
+[2023-01-20 11:00:20.196] [info] Updating Model file from 30000 to latest format...
+[2023-01-20 11:00:20.231] [warning] Model name 'Running Model For Motions In All Directions' contains whitespace.
+[2023-01-20 11:00:20.231] [warning] It was renamed to 'RunningModelForMotionsInAllDirections'.
+[2023-01-20 11:00:20.280] [info] Loaded model RunningModelForMotionsInAllDirections from file C:\Dev\BASH-Model\data\OSIM\2020_Nitschke_Supplementary_Dataset\runMaD.osim
+[2023-01-20 11:00:53.823] [info] Old version storage/motion file encountered
+[2023-01-20 11:00:53.823] [info] Storage: read data file = C:\Dev\BASH-Model\data\OSIM\2020_Nitschke_Supplementary_Dataset\Running_Mean_Exp_GRF.mot (nr=50 nc=19)
+[2023-01-20 11:00:53.823] [info] .. assuming rotations in Degrees..
+[2023-01-20 11:01:03.433] [info] Old version storage/motion file encountered
+[2023-01-20 11:01:03.433] [info] Storage: read data file = C:\Dev\BASH-Model\data\OSIM\2020_Nitschke_Supplementary_Dataset\Running_Mean_Exp_Kinem.mot (nr=50 nc=34)
+[2023-01-20 11:01:03.433] [info] .. assuming rotations in Degrees..

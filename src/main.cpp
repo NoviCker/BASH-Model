@@ -65,6 +65,8 @@ int main(int argc, char* argv[]) {
 		PRINT_ERR("No .osim file was specified.");
 	}
 
+	
+
 	// Scaling
 	if (args.Exists("--scale")) {
 		const std::string& filenameScale = args.Get("--scale");

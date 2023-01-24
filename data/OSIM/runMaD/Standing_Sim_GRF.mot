@@ -1,0 +1,8 @@
+JK_SCALED_standing007_kinetics_GRFs.mot
+nRows=2
+nColumns=19
+inDegrees=no
+endheader
+time	ground_force_vx	ground_force_vy	ground_force_vz	ground_force_px	ground_force_py	ground_force_pz	l_ground_force_vx	l_ground_force_vy	l_ground_force_vz	l_ground_force_px	l_ground_force_py	l_ground_force_pz	ground_torque_x	ground_torque_y	ground_torque_z	l_ground_torque_x	l_ground_torque_y	l_ground_torque_z
+   0.00000   -0.00000  451.11921   -0.00000   -0.07912    0.00000    0.07627    0.00000  448.69196   -0.00000   -0.07908    0.00000   -0.07671  -34.40760   -0.00000  -35.69440   34.42112   -0.00000  -35.48330
+   0.50000   -0.00000  451.11921   -0.00000   -0.07912    0.00000    0.07627    0.00000  448.69196   -0.00000   -0.07908    0.00000   -0.07671  -34.40760   -0.00000  -35.69440   34.42112   -0.00000  -35.48330

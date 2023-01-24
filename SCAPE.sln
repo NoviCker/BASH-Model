@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.852
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SCAPE", "SCAPE.vcxproj", "{4534235B-AF99-48F6-A888-6AECF021EED2}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libRender", ".\libRender\libRender.vcxproj", "{851EAD65-4B11-48C3-9481-0D0DC33A0D5A}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libRender", "libRender\libRender.vcxproj", "{851EAD65-4B11-48C3-9481-0D0DC33A0D5A}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libSCAPE", ".\libSCAPE\libSCAPE.vcxproj", "{AE447CEB-9D5D-46F5-BFE8-7962D109458B}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libSCAPE", "libSCAPE\libSCAPE.vcxproj", "{AE447CEB-9D5D-46F5-BFE8-7962D109458B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
