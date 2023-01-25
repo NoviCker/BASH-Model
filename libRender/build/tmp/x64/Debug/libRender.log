@@ -1,0 +1,16 @@
+﻿  graphics.cpp
+  camera.cpp
+  framebuffer.cpp
+  game.cpp
+  input.cpp
+  mesh.cpp
+C:\Dev\bash-model\libRender\src\mesh.cpp(192,91): warning C4267: 'argument': conversion from 'size_t' to 'uint', possible loss of data
+C:\Dev\bash-model\libRender\src\mesh.cpp(207,91): warning C4267: 'argument': conversion from 'size_t' to 'uint', possible loss of data
+C:\Dev\bash-model\libRender\src\mesh.cpp(214,91): warning C4267: 'argument': conversion from 'size_t' to 'uint', possible loss of data
+C:\Dev\bash-model\libRender\src\mesh.cpp(227,91): warning C4267: 'argument': conversion from 'size_t' to 'uint', possible loss of data
+C:\Dev\bash-model\libRender\src\mesh.cpp(239,91): warning C4267: 'argument': conversion from 'size_t' to 'uint', possible loss of data
+C:\Dev\bash-model\libRender\src\mesh.cpp(254,91): warning C4267: 'argument': conversion from 'size_t' to 'uint', possible loss of data
+  shader.cpp
+  texture.cpp
+  Generating Code...
+  libRender.vcxproj -> C:\Dev\bash-model\libRender\build\x64\Debug\libRender.lib

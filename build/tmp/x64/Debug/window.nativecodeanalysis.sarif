@@ -1,0 +1,3436 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Dev/bash-model/src/util.h"
+                },
+                "region": {
+                  "startLine": 191,
+                  "startColumn": 30,
+                  "endLine": 191,
+                  "endColumn": 34
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FindRayHitpointOnMesh",
+                  "decoratedName": "?FindRayHitpointOnMesh@@YA_NAEBURay@@AEBV?$vector@U?$vec@$02M$0A@@glm@@V?$allocator@U?$vec@$02M$0A@@glm@@@std@@@std@@AEAV?$vector@IV?$allocator@I@std@@@3@AEBU?$mat@$03$03M$0A@@glm@@AEAU?$vec@$02M$0A@@6@AEAU?$vec@$01M$0A@@6@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Dev/bash-model/src/util.h"
+                },
+                "region": {
+                  "startLine": 192,
+                  "startColumn": 30,
+                  "endLine": 192,
+                  "endColumn": 34
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FindRayHitpointOnMesh",
+                  "decoratedName": "?FindRayHitpointOnMesh@@YA_NAEBURay@@AEBV?$vector@U?$vec@$02M$0A@@glm@@V?$allocator@U?$vec@$02M$0A@@glm@@@std@@@std@@AEAV?$vector@IV?$allocator@I@std@@@3@AEBU?$mat@$03$03M$0A@@glm@@AEAU?$vec@$02M$0A@@6@AEAU?$vec@$01M$0A@@6@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Dev/bash-model/src/util.h"
+                },
+                "region": {
+                  "startLine": 225,
+                  "startColumn": 24,
+                  "endLine": 225,
+                  "endColumn": 28
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "computeVertexNormals",
+                  "decoratedName": "?computeVertexNormals@@YA?AV?$vector@U?$vec@$02M$0A@@glm@@V?$allocator@U?$vec@$02M$0A@@glm@@@std@@@std@@AEBV12@AEBV?$vector@IV?$allocator@I@std@@@2@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Dev/bash-model/src/util.h"
+                },
+                "region": {
+                  "startLine": 226,
+                  "startColumn": 24,
+                  "endLine": 226,
+                  "endColumn": 28
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "computeVertexNormals",
+                  "decoratedName": "?computeVertexNormals@@YA?AV?$vector@U?$vec@$02M$0A@@glm@@V?$allocator@U?$vec@$02M$0A@@glm@@@std@@@std@@AEBV12@AEBV?$vector@IV?$allocator@I@std@@@2@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'aiVertexWeight::mWeight' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Dev/bash-model/packages/Assimp.3.0.0/build/native/include/assimp/mesh.h"
+                },
+                "region": {
+                  "startLine": 207,
+                  "startColumn": 2,
+                  "endLine": 207,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "aiVertexWeight::{ctor}",
+                  "decoratedName": "??0aiVertexWeight@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "aiVertexWeight::mWeight"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'aiVertexWeight::mVertexId' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Dev/bash-model/packages/Assimp.3.0.0/build/native/include/assimp/mesh.h"
+                },
+                "region": {
+                  "startLine": 207,
+                  "startColumn": 2,
+                  "endLine": 207,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "aiVertexWeight::{ctor}",
+                  "decoratedName": "??0aiVertexWeight@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "aiVertexWeight::mVertexId"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'aiBone::mWeights' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Dev/bash-model/packages/Assimp.3.0.0/build/native/include/assimp/mesh.h"
+                },
+                "region": {
+                  "startLine": 251,
+                  "startColumn": 2,
+                  "endLine": 251,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "aiBone::{ctor}",
+                  "decoratedName": "??0aiBone@@QEAA@AEBU0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "aiBone::mWeights"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'aiAnimMesh::mNumVertices' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Dev/bash-model/packages/Assimp.3.0.0/build/native/include/assimp/mesh.h"
+                },
+                "region": {
+                  "startLine": 375,
+                  "startColumn": 2,
+                  "endLine": 375,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "aiAnimMesh::{ctor}",
+                  "decoratedName": "??0aiAnimMesh@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "aiAnimMesh::mNumVertices"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'aiMaterialProperty::mDataLength' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Dev/bash-model/packages/Assimp.3.0.0/build/native/include/assimp/material.h"
+                },
+                "region": {
+                  "startLine": 634,
+                  "startColumn": 2,
+                  "endLine": 634,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "aiMaterialProperty::{ctor}",
+                  "decoratedName": "??0aiMaterialProperty@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "aiMaterialProperty::mDataLength"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'aiMaterialProperty::mType' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Dev/bash-model/packages/Assimp.3.0.0/build/native/include/assimp/material.h"
+                },
+                "region": {
+                  "startLine": 634,
+                  "startColumn": 2,
+                  "endLine": 634,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "aiMaterialProperty::{ctor}",
+                  "decoratedName": "??0aiMaterialProperty@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "aiMaterialProperty::mType"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'aiVectorKey::mTime' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Dev/bash-model/packages/Assimp.3.0.0/build/native/include/assimp/anim.h"
+                },
+                "region": {
+                  "startLine": 69,
+                  "startColumn": 2,
+                  "endLine": 69,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "aiVectorKey::{ctor}",
+                  "decoratedName": "??0aiVectorKey@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "aiVectorKey::mTime"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'aiQuatKey::mTime' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Dev/bash-model/packages/Assimp.3.0.0/build/native/include/assimp/anim.h"
+                },
+                "region": {
+                  "startLine": 110,
+                  "startColumn": 2,
+                  "endLine": 110,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "aiQuatKey::{ctor}",
+                  "decoratedName": "??0aiQuatKey@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "aiQuatKey::mTime"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'aiMeshKey::mTime' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Dev/bash-model/packages/Assimp.3.0.0/build/native/include/assimp/anim.h"
+                },
+                "region": {
+                  "startLine": 154,
+                  "startColumn": 2,
+                  "endLine": 154,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "aiMeshKey::{ctor}",
+                  "decoratedName": "??0aiMeshKey@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "aiMeshKey::mTime"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'aiMeshKey::mValue' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Dev/bash-model/packages/Assimp.3.0.0/build/native/include/assimp/anim.h"
+                },
+                "region": {
+                  "startLine": 154,
+                  "startColumn": 2,
+                  "endLine": 154,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "aiMeshKey::{ctor}",
+                  "decoratedName": "??0aiMeshKey@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "aiMeshKey::mValue"
+          }
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Dev/bash-model/packages/Assimp.3.0.0/build/native/include/assimp/matrix3x3.inl"
+                },
+                "region": {
+                  "startLine": 111,
+                  "startColumn": 21,
+                  "endLine": 111,
+                  "endColumn": 32
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "aiMatrix3x3t<float>::[]",
+                  "decoratedName": "??A?$aiMatrix3x3t@M@@QEBAPEBMI@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Dev/bash-model/packages/Assimp.3.0.0/build/native/include/assimp/matrix3x3.inl"
+                },
+                "region": {
+                  "startLine": 104,
+                  "startColumn": 21,
+                  "endLine": 104,
+                  "endColumn": 32
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "aiMatrix3x3t<float>::[]",
+                  "decoratedName": "??A?$aiMatrix3x3t@M@@QEAAPEAMI@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Dev/bash-model/packages/Assimp.3.0.0/build/native/include/assimp/matrix4x4.inl"
+                },
+                "region": {
+                  "startLine": 224,
+                  "startColumn": 21,
+                  "endLine": 224,
+                  "endColumn": 32
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "aiMatrix4x4t<float>::[]",
+                  "decoratedName": "??A?$aiMatrix4x4t@M@@QEBAPEBMI@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Dev/bash-model/packages/Assimp.3.0.0/build/native/include/assimp/matrix4x4.inl"
+                },
+                "region": {
+                  "startLine": 216,
+                  "startColumn": 21,
+                  "endLine": 216,
+                  "endColumn": 32
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "aiMatrix4x4t<float>::[]",
+                  "decoratedName": "??A?$aiMatrix4x4t@M@@QEAAPEAMI@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.34.31933.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Dev/bash-model/src/util.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "cd3b11afab67c7be76f8c2b3e9f3365eb4a5e6eaf94640037903008bba988bbb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Dev/bash-model/packages/Assimp.3.0.0/build/native/include/assimp/mesh.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "061421ff0e90c8482419f468b30df1c781703c11988b7539f986ef8a00743586"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Dev/bash-model/packages/Assimp.3.0.0/build/native/include/assimp/material.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "2c05076d306fe82bf70bbe62f034e28add3c9f5f8744d9b430109a32c12821a2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Dev/bash-model/packages/Assimp.3.0.0/build/native/include/assimp/anim.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "597db0ca6d4bc3c071b9eabfcf5854efa890550b0870b91a784307656673c79c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Dev/bash-model/packages/Assimp.3.0.0/build/native/include/assimp/matrix3x3.inl"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "a9d0bbd8c3544b754b01e609d7d96419c6f9e9dc33330e0956fa142ce8fd606c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Dev/bash-model/packages/Assimp.3.0.0/build/native/include/assimp/matrix4x4.inl"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "e26528d0e798bff59fff0f6ddc6084aff0cc81f445e5790be405e9d098712304"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/src/window.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "3780a3ceffecec93f8f8f5c9f0bf9436331fe93e2f951925dafabec0ee6c07f8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/src/window.h"
+          },
+          "hashes": {
+            "sha-256": "359346fc4cb3647d619af197b8874962c6f0391d49843bfc6341cf7771fe34f3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/librender/include/render/global.h"
+          },
+          "hashes": {
+            "sha-256": "6abfcbc73bb2a1509490037d0a3d0152cfade02f781a42a2354e7658cfc5a791"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/vcpkg/packages/glew_x64-windows/include/gl/glew.h"
+          },
+          "hashes": {
+            "sha-256": "d3a05edf0b6c45bdbdb5704cacfa68a4666ae682e09b7970bb7310d38cfc3d0e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/glm.hpp"
+          },
+          "hashes": {
+            "sha-256": "a60e914477f5850be5df4564dfc5a74e659f0b20042595760c680223fb19ec71"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/detail/_fixes.hpp"
+          },
+          "hashes": {
+            "sha-256": "6fc9790fefc3bf84901fac960297c31e231e8d062b1a719750bcdae61abca254"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/detail/setup.hpp"
+          },
+          "hashes": {
+            "sha-256": "bc1f632ada1c8792b8b6858792e43d16fefe06eb331f30f380bfc22fc4a7b601"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/simd/platform.h"
+          },
+          "hashes": {
+            "sha-256": "43b9c5ecfba5beb7d6bdf7474cfa61b71cc5f15772ee82fda033093e0016563e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/fwd.hpp"
+          },
+          "hashes": {
+            "sha-256": "6e7f28f3a39887209b40ce88cdc54e91108a130de50e857b4943106a00f2c952"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/detail/qualifier.hpp"
+          },
+          "hashes": {
+            "sha-256": "38eeeb81a7a992d7469467e3833accf208f16a9c91e26b82e859e50972f10318"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/vec2.hpp"
+          },
+          "hashes": {
+            "sha-256": "e9d143c0f664d02c4ee61fede9f58a41d54ec18481a62fd48f1fb41fa4b2ad15"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/vector_bool2.hpp"
+          },
+          "hashes": {
+            "sha-256": "08bc020cccad86af4294e2e1cdac3ffb2033041358d4102e281130588432788c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/detail/type_vec2.hpp"
+          },
+          "hashes": {
+            "sha-256": "41c11ba64bf0b6f82a474dee65fb96dac50ec504a997b0d0103eb1b08a884c8c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/detail/type_vec2.inl"
+          },
+          "hashes": {
+            "sha-256": "4f537da648857d68202b64fc9b1e467731089551a8fe1fbe72f776d484020f51"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/detail/compute_vector_relational.hpp"
+          },
+          "hashes": {
+            "sha-256": "ff168fc500c89f8d41b336b61e2b288e0a756a6aa67b03cde527f619baa73a82"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/vector_bool2_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "e2f84fd2b920227c511ebc2afd798e9002c21272e4c0aff9793bcad6c84c6716"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/vector_float2.hpp"
+          },
+          "hashes": {
+            "sha-256": "cbb12f8f18196f7b7e47c4ba64d11bc2ffaf18fcf13294b733d7814223652174"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/vector_float2_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "d9855e815a007eecfeabb34fe85009b5a70c2b21a9aad6e96689059faf12693e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/vector_double2.hpp"
+          },
+          "hashes": {
+            "sha-256": "aa65d51f6f502e7be3c03f23d614e58b3c3620a68f3a76a1ddafc54db2d9e654"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/vector_double2_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "97825cffc45a58054c9f6dfc07ccbc40bb0cd4c47183a8b4e7bd29a2e737ab10"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/vector_int2.hpp"
+          },
+          "hashes": {
+            "sha-256": "0b22b6950e3274a9c285fbf6a7d85a7521c956bda32e44c4a883ccf30d26cb1c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/vector_int2_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "f86937494e880558d153c851d6b3e1c8c5b01b8add4d08d69528860a0573908d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/vector_uint2.hpp"
+          },
+          "hashes": {
+            "sha-256": "3d098c2039dbc9ba6d63512a1b5127075557602baa3e9f0f57152226bd859ea1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/vector_uint2_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "ac42390fdb7e30b6fd1328ef953e2385b9ad6723b7a738c09c3c7a7febb4ccbd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/vec3.hpp"
+          },
+          "hashes": {
+            "sha-256": "c2035c3b679ae355385b5f8ab1cdacd758766f78b5b6574650068052f77ac068"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/vector_bool3.hpp"
+          },
+          "hashes": {
+            "sha-256": "a828c03d2b6e9f68d4b859c4465cf1a0f2b42c94825e80643ac77fba99fde1b8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/detail/type_vec3.hpp"
+          },
+          "hashes": {
+            "sha-256": "d77e115b9020391bfb48620a8160c939cfdeed6ed5f76f46dc7b4e0fbcfb4537"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/detail/type_vec3.inl"
+          },
+          "hashes": {
+            "sha-256": "5ac2332075a4692dac544f1558b797c04c731de2d9ef3302287f2aa39fa8a55f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/vector_bool3_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "7aa0a1650188f00e603af5d837b84a092c480e6a395e782d619c4762c7de753d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/vector_float3.hpp"
+          },
+          "hashes": {
+            "sha-256": "0ea127ffc477a43a39ca0737ae9062363541dcf4fb39540d0d2447ad3b8a16c9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/vector_float3_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "3928df5009a88ba934f4e4fba3b38c3d1d1cea4a203a8b7fd6552000703d5fc4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/vector_double3.hpp"
+          },
+          "hashes": {
+            "sha-256": "640fd2e9cb876b076381b2564a6dd6dc564cb28aa334c0726a0b9d5cf38d6b84"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/vector_double3_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "0cf3c9415fa477eb52840778be7f7ee8d104c3fd911fc5b72b56e84a0a220fac"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/vector_int3.hpp"
+          },
+          "hashes": {
+            "sha-256": "0732541c4b296456a1be9999253f2e4c7b68f0f4dd997e974816cbaeb667d2bf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/vector_int3_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "510cd9c91a586cf05a3870a6211b50711d5366592ba5ba6f8c49bf0e6859cf76"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/vector_uint3.hpp"
+          },
+          "hashes": {
+            "sha-256": "7719bc51395424bbd73f9bec3e43fe341495f924c8a97bcdf3a1163e19d29a32"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/vector_uint3_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "2f75d9ae8843c600dbdd4645c471ac228feefe4eb7a34002ffab4c0f4f9310b8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/vec4.hpp"
+          },
+          "hashes": {
+            "sha-256": "2837a357a15932f13c52d5ce89c01b728130f0198ce1a7c20cfd056c1ebf5f73"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/vector_bool4.hpp"
+          },
+          "hashes": {
+            "sha-256": "754ecb017dfebaa17a185533d282c30e400cfa161233af835ae38f17703770d5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/detail/type_vec4.hpp"
+          },
+          "hashes": {
+            "sha-256": "4e51a9652a024720210ae356c47a6f411f078b995cdbe5653e9cc27f4df37ef1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/detail/type_vec4.inl"
+          },
+          "hashes": {
+            "sha-256": "3cee7227d7ab4325f8c6dfb02a80be30878af92b617efe7aaec12743f2b97721"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/vector_bool4_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "93cb3a0613e0dec131e9f572f392e9c0799b03ed4bb84a63c81c10ada416964c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/vector_float4.hpp"
+          },
+          "hashes": {
+            "sha-256": "cc41791cc7bbced0d798a58ba796a2ebdc5f10af483986773d95a55be95c3fe7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/vector_float4_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "11dbb5651fb744c866cb8deadf84c03a6c1f2b901f62ad9f1f26edef998a217b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/vector_double4.hpp"
+          },
+          "hashes": {
+            "sha-256": "6f48af6fa7e368e8848ce7b040a6efe05ac80e087dc6f91fad9d58e2ed90ef6d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/vector_double4_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "cde72699e11ccc7b28955065217387d3f9d7d6087ee2992fc7c48e9daaa08a3e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/vector_int4.hpp"
+          },
+          "hashes": {
+            "sha-256": "8eb57ddad25682eb4617a62fea5629f2923c20f2cdaa7c0f1f9337044afdcade"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/vector_int4_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "ca7cdf30cfd9a3d59a3ad3611f8da55fa6975291e4c8b126820c317ac9005f8a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/vector_uint4.hpp"
+          },
+          "hashes": {
+            "sha-256": "c2fefc4791975a7799147d5c0f2626816020489d574c03b85a35e1c45aec5c34"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/vector_uint4_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "4f61b7b0ec719b2bb3cc424fb2975237b8102a257c7e2eeb18334a19d0c30c0c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/mat2x2.hpp"
+          },
+          "hashes": {
+            "sha-256": "6056a3c939a3b2e6723fbda0bc2e40a88a376ae026db9542188863187d91dc46"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/matrix_double2x2.hpp"
+          },
+          "hashes": {
+            "sha-256": "e28536ec12657a2e585bb6017ec113904b9f6c804cbaf68c16a9682397a0b823"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/detail/type_mat2x2.hpp"
+          },
+          "hashes": {
+            "sha-256": "946a1580d3371d06b5fc4444b1e8d94516c701f9372e9ebeddeaf868c975898d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/detail/type_mat2x2.inl"
+          },
+          "hashes": {
+            "sha-256": "353cf0ca8242144d769c586a5a37ea13069deb8f0364067eef6258250f60df33"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/matrix.hpp"
+          },
+          "hashes": {
+            "sha-256": "23e083028b3194de3dcd7d89223d45c52c659fb40c7a4a58339692bbb821ec01"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/mat2x3.hpp"
+          },
+          "hashes": {
+            "sha-256": "adeaedc3219cb10fa58aa30196491783faa4f86b5ef06407926ac9eb0e89b858"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/matrix_double2x3.hpp"
+          },
+          "hashes": {
+            "sha-256": "c11a0748fa8c7786ac25361e61a85022f7eded975d73080e1d8761ab41013bb1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/detail/type_mat2x3.hpp"
+          },
+          "hashes": {
+            "sha-256": "cdb5e5b247d53d7e3614b7d9ebf4c9975c9b8ffdfef055b3604248be83986160"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/detail/type_mat2x3.inl"
+          },
+          "hashes": {
+            "sha-256": "dd2ba32110e514514a071be9d8af9cd4a104710eb78a18273783740aa1e6993d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/matrix_double2x3_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "1ba3ed6f786496481c3f972119fc2e1cbf68f1aa758e6a8b74001efbea5b36d0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/matrix_float2x3.hpp"
+          },
+          "hashes": {
+            "sha-256": "7a677179835b2a26da137f7dd42512db7bda0e4182f1865f6e9f30835c02ac0b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/matrix_float2x3_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "ea9b5d97edd6a1d9be9552b2da1bc88657e0b52f35a2c8f8b05d21d6b39f93aa"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/mat2x4.hpp"
+          },
+          "hashes": {
+            "sha-256": "37d8f5a57c2885d495185153ad13b6b5a1da35294e48f934729f09dda7876203"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/matrix_double2x4.hpp"
+          },
+          "hashes": {
+            "sha-256": "ec639b0b93a6ec60c8de7095e2e5452eeb15dc8fd40f8c271925a96d2feb23ac"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/detail/type_mat2x4.hpp"
+          },
+          "hashes": {
+            "sha-256": "7196fb6ca4922bd73938f3202d1c5795ed2bd4c7c792a2ae8408bb579d460212"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/detail/type_mat2x4.inl"
+          },
+          "hashes": {
+            "sha-256": "03137081a35a05fe635841aa0cd73b668279d4a8fdec920049d5c8c86eb38084"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/matrix_double2x4_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "281b2a8761ccd5759d2fd152282858429db4e45b665ab106a7d87682a55e89b6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/matrix_float2x4.hpp"
+          },
+          "hashes": {
+            "sha-256": "605920fe8064ea495dac25bd67324df9e48b014b18ab6f5957290dddeaccc399"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/matrix_float2x4_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "05b75e5b02168e44b199d3d47434840a0f0c852e2bae1e57ad4a15e4413b3422"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/mat3x2.hpp"
+          },
+          "hashes": {
+            "sha-256": "9bc06112c9f23e61895c8a755bfcfd87e6a130336fdaf3b8e26963dd5fe670c8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/matrix_double3x2.hpp"
+          },
+          "hashes": {
+            "sha-256": "4be9c05f29a7d77e6a79266fd923420f30851ffb48a1cb7c09174654b5f29789"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/detail/type_mat3x2.hpp"
+          },
+          "hashes": {
+            "sha-256": "3a686f9a945896c879ad4d40dc107d35a5da34dae23427c6e02d5c7c30109660"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/detail/type_mat3x2.inl"
+          },
+          "hashes": {
+            "sha-256": "8d92f493626947ecb2e6ae626a9d4c5dd000556f2d244bfbd6fb9f702431e311"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/matrix_double3x2_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "0ef483e736066641b1f404d6167f083efd7ac59ebdf8a25256e8ec96d90f2806"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/matrix_float3x2.hpp"
+          },
+          "hashes": {
+            "sha-256": "02a7ac14ec45a771a0a9bb1512cb3f54e62f3e694318f625d47880e546a69203"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/matrix_float3x2_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "f9fbabe399b19161caaa361ae1c215b1955263cc914190300b64d9ce92d9ebab"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/mat3x3.hpp"
+          },
+          "hashes": {
+            "sha-256": "4da5a7d6ec599625d15f6e79e24a86aec6c395c66a88cf26650c9e908c8a8df9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/matrix_double3x3.hpp"
+          },
+          "hashes": {
+            "sha-256": "430b06751247f8d8654a7163e26cc337f507316fbf5f10e8c2bf517c2aaa5ca8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/detail/type_mat3x3.hpp"
+          },
+          "hashes": {
+            "sha-256": "98d23285fa6f089eb4289c6100137f9e3dcb0d9258f2b09ff8f7c0ab218198d9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/detail/type_mat3x3.inl"
+          },
+          "hashes": {
+            "sha-256": "a5c46968594f73463df0eadc2eacf279962da6284d209bd95a709cb9ac3b72af"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/matrix_double3x3_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "176aabc4e86027253dd5543ddd9684dbcbad1fea33c3c5ccc0b473f491b95580"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/matrix_float3x3.hpp"
+          },
+          "hashes": {
+            "sha-256": "299e7945455a373d8d49dda9d1cfec0eb4b48eff8f1c14c156ba88fbdde4eee0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/matrix_float3x3_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "896dd61706db0a36b0e58e880f48566d29a58ffac1da85f69aa4a4a260bf1454"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/mat3x4.hpp"
+          },
+          "hashes": {
+            "sha-256": "15d1f563d4584fec99a384514a6e07022499828201110dbf215a26c140ab77c9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/matrix_double3x4.hpp"
+          },
+          "hashes": {
+            "sha-256": "62527ff366e80a4c954c8724695bc09a202e60fc478250f4870c87998b00c9ab"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/detail/type_mat3x4.hpp"
+          },
+          "hashes": {
+            "sha-256": "3610e3994ae92343e68afe3be25240a07de8384e200b619ff7c57630a00a369f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/detail/type_mat3x4.inl"
+          },
+          "hashes": {
+            "sha-256": "a03235ddf08df119efa8c8b9fcc343e3d3109168d171960e87efea82e24535f9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/matrix_double3x4_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "ae712fc20285c97f9433d88dab2915ac39a38f5e59ee62ad7c30c5ec0092129a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/matrix_float3x4.hpp"
+          },
+          "hashes": {
+            "sha-256": "cd9bceec04a4fdade2fc8940468e256e4871a5629824a0a390986524be26fc4d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/matrix_float3x4_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "96aa315929994b7d2fae34f6c33eb6df4ae614b50fe03fedc9c7df91c337d8d2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/mat4x2.hpp"
+          },
+          "hashes": {
+            "sha-256": "9e773ef2f92febf5fc5d92b4b60e35fbe69a6876f9f7611f662c1169f62ff13b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/matrix_double4x2.hpp"
+          },
+          "hashes": {
+            "sha-256": "b61b99842606f38bb7127750cd7eb313a9333fce80980220bfde8e81df119762"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/detail/type_mat4x2.hpp"
+          },
+          "hashes": {
+            "sha-256": "0b8558216ad73e33a9f81e27c7e7ae2533aa7cac5fa4bd1df7f9192853749a9a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/detail/type_mat4x2.inl"
+          },
+          "hashes": {
+            "sha-256": "2398a7611d09ddcb31118d5ba4bd14e43f736a4fc96ce3f3990047d3a7b7321f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/matrix_double4x2_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "996b6d3f29d0fc6f7cf9f0f9981b4cc519fff55341423fbf261c8c1a204b42a9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/matrix_float4x2.hpp"
+          },
+          "hashes": {
+            "sha-256": "3d4b080dda4dbe1350d0ab96a18dbf297de911b9710257dd272a5049ca999e02"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/matrix_float4x2_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "bc4f715f93951b2154a15d906557f7474673411590f61c2f520e2cbae6f67917"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/mat4x3.hpp"
+          },
+          "hashes": {
+            "sha-256": "738acb70ca0e61e503e3944fc7cb0f9e0e92fb77b592f59da61f0b29084fb074"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/matrix_double4x3.hpp"
+          },
+          "hashes": {
+            "sha-256": "021dbc9cc77be8a0dff9f84a5103bfdccb013ea0a134b2bbeab97fad44314f2a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/detail/type_mat4x3.hpp"
+          },
+          "hashes": {
+            "sha-256": "91163024d07d4d493afa9251f32c190b8b510af423a2681dd30de34087b18011"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/detail/type_mat4x3.inl"
+          },
+          "hashes": {
+            "sha-256": "593c8ddfed736810a0a527f9fef428c42e9ac9ceb2c41593610742bc9e690067"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/matrix_double4x3_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "3b47d8d4e2b86551fabd9d85aba2cc60488255f7fcfcf7cf5b3ad793fb8f1319"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/matrix_float4x3.hpp"
+          },
+          "hashes": {
+            "sha-256": "22116ae630cd2be2baad2c7f545814f6b21bb3bf9dc8913d848c61f54ac9b666"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/matrix_float4x3_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "426099fdd6b1a040ccae7e31d3adb240d798efefd2492e611b3180495a49fd48"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/mat4x4.hpp"
+          },
+          "hashes": {
+            "sha-256": "5d8bac395211111db631fa4c19358ab740b07b40c4ed671949d0bacaa05b41c2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/matrix_double4x4.hpp"
+          },
+          "hashes": {
+            "sha-256": "26040ba340dcb95f4d48f3e0ccc8828af925be7c04c171702282a7139e04b5c4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/detail/type_mat4x4.hpp"
+          },
+          "hashes": {
+            "sha-256": "3c9a7babf858367b8ab70eeb81877760b6cf6e7755c3db606cca2e97673f35dc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/detail/type_mat4x4.inl"
+          },
+          "hashes": {
+            "sha-256": "99e745c336972833c3b8fabf44c4fde69290b361294a6a65667f86382f4fe8bf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/matrix_double4x4_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "7669392ddeb68c4cc3bd7d4f6517e74e7900a49e6a98fc68c2b7a486daa801bb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/matrix_float4x4.hpp"
+          },
+          "hashes": {
+            "sha-256": "e8c9c29e09ed93683aed373ce03c9ef7af9e4f0e63f2b66ad6d74c4a2c4fb177"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/matrix_float4x4_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "89c47a65ef88bb4bdb4b09a9981ff8249465fffb429c47693bc7fac0a2857fbd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/detail/func_matrix.inl"
+          },
+          "hashes": {
+            "sha-256": "3e40ff85473a7dd2049239aa8ae7050df7545c4ceb8208f1e7bbb2f03be78ba8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/geometric.hpp"
+          },
+          "hashes": {
+            "sha-256": "38d156e97a440c26888b98a84732299218707f1d09a3d8915f413325a6384cc1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/detail/func_geometric.inl"
+          },
+          "hashes": {
+            "sha-256": "490ee8efe78ffea91c863458a8f862056dabc9ba2e1000827806101b90d20310"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/exponential.hpp"
+          },
+          "hashes": {
+            "sha-256": "5f5d347f4b73b9753203502e588aa0c8affae0eaebe737a9b02da56ac49d5674"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/detail/type_vec1.hpp"
+          },
+          "hashes": {
+            "sha-256": "a1545eccffd1680b8fdcbdcf730d79ccea7f3484b7a78ee055d2e090dc338400"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/detail/type_vec1.inl"
+          },
+          "hashes": {
+            "sha-256": "e31c7a44eb078b0a438da892e825c245b019d9d8b145e186efc0ba857db004a1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/detail/func_exponential.inl"
+          },
+          "hashes": {
+            "sha-256": "0264b95a89c569be0a7c8fba007aacb851063d61f3345e7863e60c2049ca681f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/vector_relational.hpp"
+          },
+          "hashes": {
+            "sha-256": "d31e49c0b04d7904882183f538bb49ab4f8827583053a5cea482facea451e37e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/detail/func_vector_relational.inl"
+          },
+          "hashes": {
+            "sha-256": "c9c60151b8b877d573b9fdb07f29364070c3e9f6736b39186bca6cc6b8112a5b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/detail/_vectorize.hpp"
+          },
+          "hashes": {
+            "sha-256": "119aa7332b6801c70f27460d5a0ec3f8baeb5099d269ad85077c367e3b18bd06"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/common.hpp"
+          },
+          "hashes": {
+            "sha-256": "f3512ae64c0991372daad9cff5a761a97b8d3a1a82fa3132aa3f501661e51fd1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/detail/func_common.inl"
+          },
+          "hashes": {
+            "sha-256": "192f5084611c50d0dcadad57cad49abe6147ed8f8a0e016dcc435c2daf834f5b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/detail/compute_common.hpp"
+          },
+          "hashes": {
+            "sha-256": "604a836664c4d29dc4f963feae571705d3a76432849e1dffc9e320e83264b8aa"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/matrix_double2x2_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "2b795b1e984fa3b7d24e0b95aa61c0597c239cb5d5187cb6691bddefc9664fa3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/matrix_float2x2.hpp"
+          },
+          "hashes": {
+            "sha-256": "bf4587b54860ca193dcb1a2fdcc327f70a771812fb7834d265c40b5b8a8e885c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/matrix_float2x2_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "52a85595bf0ac4b3a5035de32e7f207c5997846e368962100f2e11e5e60d6bab"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/trigonometric.hpp"
+          },
+          "hashes": {
+            "sha-256": "bbd62e937699757aac3a38c8f00d8362f22e6243814713577875b0923b7b0163"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/detail/func_trigonometric.inl"
+          },
+          "hashes": {
+            "sha-256": "338418b118bdb6af143fe8633299b0781885c87136610b6af4cb47df83fb5ed5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/packing.hpp"
+          },
+          "hashes": {
+            "sha-256": "1210b6194da61a9b13b287c191a2d89242ebfa3518feab1fe9a3a49069c0f083"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/detail/func_packing.inl"
+          },
+          "hashes": {
+            "sha-256": "579fb9b927f3b435350d63400e21da5457343bc3726e95d40d46c3203425eab4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/detail/type_half.hpp"
+          },
+          "hashes": {
+            "sha-256": "24173e7aaebf52860dfa8448c90db1f3cb3fcb9a56dc7126988165ae4c8ddc90"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/detail/type_half.inl"
+          },
+          "hashes": {
+            "sha-256": "910739a7048639738f4b87a0ed95c1c3e800551c44316a4e2366a097dca52a00"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/integer.hpp"
+          },
+          "hashes": {
+            "sha-256": "98abbde1905926b960ca16bca288bd1a5444f8acf126a04c7d08b04128648a7c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/detail/func_integer.inl"
+          },
+          "hashes": {
+            "sha-256": "161a37183e7d111564d59ae8e93d3e1d9c875813af4ed89af476bfc60ea97efe"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/gtx/transform.hpp"
+          },
+          "hashes": {
+            "sha-256": "8c37792182119a2b99ae894090624e9667c240fe8c050004534d40aac35868d5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/gtc/matrix_transform.hpp"
+          },
+          "hashes": {
+            "sha-256": "8a77c7a08b5521ed8580267db0d342832c0e357da8e54e0a6408d97287ce76fd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/matrix_projection.hpp"
+          },
+          "hashes": {
+            "sha-256": "5d51a7f0e6c62ea4592e5590d89576efeed9d1d3e361de7f91af16af24066a9c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/gtc/constants.hpp"
+          },
+          "hashes": {
+            "sha-256": "de780b2dbc014b22f11d747a57ea294be5f378053d3e502d1b5518c70316e3c8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/scalar_constants.hpp"
+          },
+          "hashes": {
+            "sha-256": "9f7bc0da9cbeb3fed393e409beb8ac374348612cb893a2f8c0acb6094e34428e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/scalar_constants.inl"
+          },
+          "hashes": {
+            "sha-256": "4daca1819a1a6a06ccc1aab1aba36523183941a5f277196e17de264994fef5b6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/gtc/constants.inl"
+          },
+          "hashes": {
+            "sha-256": "b18aa34f75c66d5e12c0d997dce8270fe338e95551908be4a03b3cc8c8669c62"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/matrix_projection.inl"
+          },
+          "hashes": {
+            "sha-256": "1315836fb46baa2be500c72c88b5d61bbc6dc397fd57ac48dd26f819dca22a97"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/matrix_clip_space.hpp"
+          },
+          "hashes": {
+            "sha-256": "2614b00b9559eb2afcf70b6ded62c8fe239f540764ca226110e3cd76f1c39b3d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/matrix_clip_space.inl"
+          },
+          "hashes": {
+            "sha-256": "dc4758ddadffa1c724444b533e3db70d09e8c89abc8cea706721a2162a206e07"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/matrix_transform.hpp"
+          },
+          "hashes": {
+            "sha-256": "9913b3aca3817a34daf0f1c3cb7ef62737af0f6e29aef5d851c37eec2a6c14c7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/matrix_transform.inl"
+          },
+          "hashes": {
+            "sha-256": "a767002867b0bd37290566db2257345e674caa5ee2b655ce719f8027f4e37e10"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/gtc/matrix_transform.inl"
+          },
+          "hashes": {
+            "sha-256": "c39b77df42c51b443c400397992853d6ce221ad3d7a12a81aac8ca6f7fef1691"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/gtx/transform.inl"
+          },
+          "hashes": {
+            "sha-256": "2952c4e8e2a540ea4869c5351eca7fb9deef58abda31a6d4ad1820af9946e20b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/gtx/rotate_vector.hpp"
+          },
+          "hashes": {
+            "sha-256": "90c33f89b6288c31e95f5f210f775ff2deeb90a145064469d8a00a43c17288bb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/gtc/epsilon.hpp"
+          },
+          "hashes": {
+            "sha-256": "7bd3acd70818a52fc711f85923990c30fc6affd1899736a5fc7b91705baa9367"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/gtc/epsilon.inl"
+          },
+          "hashes": {
+            "sha-256": "a24dc6c2947721cf4fc89de604563b5fe9e85e1de2674908721ffe5d249aff70"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/vector_relational.hpp"
+          },
+          "hashes": {
+            "sha-256": "8a2a257e7d7b7d5544a28da2730f6f9fc7c87a3611695415931a15848016eeb2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/vector_relational.inl"
+          },
+          "hashes": {
+            "sha-256": "395e5b0ce1a28bf72ef5657f9d14022623724df05b5680026f3092edaf211f55"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/detail/type_float.hpp"
+          },
+          "hashes": {
+            "sha-256": "a62772f6d894faf1b10bfe5468fe32accdfecae65e88b1d03150d1f60896ad1d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/gtx/rotate_vector.inl"
+          },
+          "hashes": {
+            "sha-256": "e3f164718b25b422943b65d6470c6d0338a4b2a990ea43f80355771397b6dba8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext.hpp"
+          },
+          "hashes": {
+            "sha-256": "3f1dbdd4638d5fafa001ec924fc5587784f08e2ab8739e5b6f4a56f3bd7358c0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/matrix_relational.hpp"
+          },
+          "hashes": {
+            "sha-256": "175ca70354d3451dbd895f2ddc23523f3457a907e0e2bdd808c29a7c3676873b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/matrix_relational.inl"
+          },
+          "hashes": {
+            "sha-256": "82f966848ec353b0040330221344f0e0372819e02129e749e313b8e56019580e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/quaternion_double.hpp"
+          },
+          "hashes": {
+            "sha-256": "5dc2dec7cfe4a93367446444d5c32c1d7049659ffcb9aa6e542aaafc88d80fff"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/detail/type_quat.hpp"
+          },
+          "hashes": {
+            "sha-256": "6d5bdad92609cb6660fcff3e003324f28105d733e69aba3443c0b8513f5dd250"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/quaternion_relational.hpp"
+          },
+          "hashes": {
+            "sha-256": "8f945bcf8fe0759f66d077b2f6231d24c4426c9226d45a56ea1b993241db67f7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/quaternion_relational.inl"
+          },
+          "hashes": {
+            "sha-256": "6f4d1f0ca1cc58eaac8b660a5626cb9fcd7415d638aabe0860dd01302236445d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/detail/type_quat.inl"
+          },
+          "hashes": {
+            "sha-256": "2281f962c1d36883c33da7343d997d5acef14706bb0661e380d8bcfa912b7e5d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/quaternion_geometric.hpp"
+          },
+          "hashes": {
+            "sha-256": "9494d3e6f5ee18e6802db263e85c9a2e69ac9c628e003c1346869c932aae13dd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/quaternion_geometric.inl"
+          },
+          "hashes": {
+            "sha-256": "33b4c75a6fc13f4b14a9b8079493be933654751ff1015b059944d7d49476bb6b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/quaternion_double_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "58870286e18d6b15f86dc70cdd7b27159e64e3079647052ee49657f066e1cf2e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/quaternion_float.hpp"
+          },
+          "hashes": {
+            "sha-256": "e09777cc9d5ddfacc2430b20396eff6334c1f33e4ab85c30a0d773d3346f30d1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/quaternion_float_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "87e39971534ea53f2df2b02e8b5287a8985e911708c06ea1382a15d412412027"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/scalar_int_sized.hpp"
+          },
+          "hashes": {
+            "sha-256": "19ec6f0609602ec5e59a8008770706adc1168e768decb2c0219e6d8638fded5c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/scalar_relational.hpp"
+          },
+          "hashes": {
+            "sha-256": "9a739dee17f8bdc1770b395b84985d04b35427bffc588cd5a3e031ce2bbb743e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/scalar_relational.inl"
+          },
+          "hashes": {
+            "sha-256": "d48d3e395019a020de0c3a563816b19a1676767567ddfdae2ce0226da054fd2b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/scalar_uint_sized.hpp"
+          },
+          "hashes": {
+            "sha-256": "4cf39d073cfb89e468d54d186811d1e24692893bef7bf7b8416b1a2ffbb42f57"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/vector_bool1.hpp"
+          },
+          "hashes": {
+            "sha-256": "8cf8fe4886a0bbec143c2901f300fd56617d1df73b0c6043d55d87a342b1e3a5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/vector_bool1_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "856be7dd822b1d0dbdb6e83e93041d1ed5e3d6f0fa97b801e99e93dfafc3c0bb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/vector_double1.hpp"
+          },
+          "hashes": {
+            "sha-256": "caed423426fef4ef71c10a0c4a4f5147169932ea42e01695479ab4ca893e2a80"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/vector_double1_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "8b8248eef014f277d138a4453fcce73f74615c6ca6a3328e692b764cc5b2b677"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/vector_float1.hpp"
+          },
+          "hashes": {
+            "sha-256": "368abb2fc79f3d2706e5baa82a40b8a988b2ca3ac840dd5eff2634ce750cb722"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/vector_float1_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "093d2164294135ea0a77ff7365791e2d413b02cda9a6155e56cf4ab0e482ab98"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/vector_int1.hpp"
+          },
+          "hashes": {
+            "sha-256": "474e2cccc75553cd0b116b2fde5da1b45cd2362cb9a489384edb5de9731ac101"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/vector_int1_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "8e542aea3bd4e47b8e72aacfff5043b916f2edec4268af3d105ea979a1f33132"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/vector_uint1.hpp"
+          },
+          "hashes": {
+            "sha-256": "8d7220735f0fc85477e6f0e78fe1a0e75d605973e3cd6cfd14fcdceaee539899"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/vector_uint1_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "4b371cb09ce282dcf78b3a53e4870af5da596a0d647193c43e98a85b61981374"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/gtc/bitfield.hpp"
+          },
+          "hashes": {
+            "sha-256": "4d8765e027a85758f1301af829f619d1e10121d5b8f1372e0aca759075ee470f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/gtc/type_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "64e29285f95b1e51419398292e0a3cc76dbbd6212cdcaa62f7c886ab16a58c5d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/gtc/quaternion.hpp"
+          },
+          "hashes": {
+            "sha-256": "9e8c97ce43770801569459ab254d42b9700600223e3a58335a10a072f1445ed5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/quaternion_common.hpp"
+          },
+          "hashes": {
+            "sha-256": "7b9e81d29b3afbca82c79eb32078743a4fa9819a98e560e1b7123886214ff3de"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/quaternion_common.inl"
+          },
+          "hashes": {
+            "sha-256": "7c89740d32f58528f3882bdad8200db93ae080162def30fac866a425dde3e34d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/quaternion_trigonometric.hpp"
+          },
+          "hashes": {
+            "sha-256": "a80990e7828978f9d257f29a9d235dcff57eb2b44d561b5e803ddce03ab6a0e8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/quaternion_trigonometric.inl"
+          },
+          "hashes": {
+            "sha-256": "04d4ae9093e16f120ec47affba74804fd162624473a841682ff3fcdbdb6f474f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/quaternion_transform.hpp"
+          },
+          "hashes": {
+            "sha-256": "30fcf6ff83cb49f5b4be682d1c7ebeb0da22c398dfff64a3ad3f2e51df808db1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/quaternion_transform.inl"
+          },
+          "hashes": {
+            "sha-256": "d713382c01a0b18b4cee856ba1ff9ec3f660a25d0518c81aa0b03a56f31dcaca"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/gtc/quaternion.inl"
+          },
+          "hashes": {
+            "sha-256": "29398fcff39effaf8e2e6a66e5b1640ddcb935055d55a4ae73fdfc26a0669e8a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/gtc/vec1.hpp"
+          },
+          "hashes": {
+            "sha-256": "e4cb14f5290913a9303cf3d6517e08ada930f1d99d26b4c8c66030b3891ef7a2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/gtc/type_precision.inl"
+          },
+          "hashes": {
+            "sha-256": "499b40d2ab6777d2e938df1473c003f8bd722947818bcf28bee9909a27062d1e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/gtc/bitfield.inl"
+          },
+          "hashes": {
+            "sha-256": "70334eefaa82b23da4a874a2df6987a1a7f124841850edbe23eae2c03f17db6f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/simd/integer.h"
+          },
+          "hashes": {
+            "sha-256": "80ecc7820049d329d11018543be52c5bd6065bde12a481f60f0632584c7eaba2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/gtc/color_space.hpp"
+          },
+          "hashes": {
+            "sha-256": "c6f321b9d904e7824d69f559dfb8f369d5d510329299c45f72ae4b6ef2fac9ef"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/gtc/color_space.inl"
+          },
+          "hashes": {
+            "sha-256": "85a27af8807abc69234917e6eb067bbd94bb1d2a562d5137600fd0426e373e47"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/gtc/integer.hpp"
+          },
+          "hashes": {
+            "sha-256": "7b72e4b3b849172b3b6ad88f33a2ddb9235d8b92bff4845abc45263f8facf034"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/gtc/integer.inl"
+          },
+          "hashes": {
+            "sha-256": "7f179f693d713f1aba98c80902ddb855e7252b52e3ae84829fa93c7009d129b1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/gtc/matrix_access.hpp"
+          },
+          "hashes": {
+            "sha-256": "1c7028cb87b23548dc8559943cc413e2ba2fededcfaca6d619d999ced1f117bf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/gtc/matrix_access.inl"
+          },
+          "hashes": {
+            "sha-256": "3841a8e83e94219ffb2617963fb5bba4a850108a59da1f4ede1567dba80e5411"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/gtc/matrix_integer.hpp"
+          },
+          "hashes": {
+            "sha-256": "81a804306da98e6bd3888bc0f521b047acdeb65146f3257e18104cd4534a8902"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/gtc/matrix_inverse.hpp"
+          },
+          "hashes": {
+            "sha-256": "eafa74eed0a6ab8f9c63dd8bde2ba0aa7705bbc3eab1a433eb0bf14f24d9be98"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/gtc/matrix_inverse.inl"
+          },
+          "hashes": {
+            "sha-256": "2f2a1105e3a79789a6e91ee95ce2497290a242e00c49bf868a0642d9b73a0790"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/gtc/noise.hpp"
+          },
+          "hashes": {
+            "sha-256": "eb2665c5adbe9335f3f2dd35a8d33a0f8f02d2e08da560727f8113b4f78c844d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/detail/_noise.hpp"
+          },
+          "hashes": {
+            "sha-256": "7ee81536e422dca32cef43c0326a0963f485432427a6460c05bc4f8b32a2fd7a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/gtc/noise.inl"
+          },
+          "hashes": {
+            "sha-256": "8e5cbd2c04b0c02167c5983e3eeb93353230985666a9871c31e8c822e4aed0f8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/gtc/packing.hpp"
+          },
+          "hashes": {
+            "sha-256": "c45b97710a9c4755f741b4cab1e91d0437a40bce332a3c9ea3b13f72809ebf4d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/gtc/packing.inl"
+          },
+          "hashes": {
+            "sha-256": "4a1beec27c8680b8176fc914d6d6632e7a56e9f3b759790e37f255d1954b0b16"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/gtc/random.hpp"
+          },
+          "hashes": {
+            "sha-256": "1a4eb6920eebf4070403b3c05416b1f146b086887d4f38c7d0318dd649be0e85"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/gtc/random.inl"
+          },
+          "hashes": {
+            "sha-256": "1007bdcd368edb2c35f07e28767b0ce3465d56ad4a55b37c09f52786320d639f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/gtc/reciprocal.hpp"
+          },
+          "hashes": {
+            "sha-256": "cacc748226e3d9ded75a2831af27ea07611e64ac91033b4238078b132e5d5cb7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/gtc/reciprocal.inl"
+          },
+          "hashes": {
+            "sha-256": "1fc7d80ed26ab17445fbdec1dcf8847c203c9286372e7720b7f22c21d5a1ea80"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/gtc/round.hpp"
+          },
+          "hashes": {
+            "sha-256": "867f39b9b118dc31c1c1179d68a469a7b739caf385758617aca834568b2193d0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/gtc/round.inl"
+          },
+          "hashes": {
+            "sha-256": "062a26e0d01017c5f3c60859eed11ff5e2841de0d256f3d76c1113ea81fbea5d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/vector_integer.hpp"
+          },
+          "hashes": {
+            "sha-256": "9f18af5c2dbb58656a97791d2fae76025bea7e5ddfac3413ddac3467f6b61b3d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/vector_integer.inl"
+          },
+          "hashes": {
+            "sha-256": "b9aa5e0913aa76be3987cc14c418bf490225303ccf6bcfae7db626bb6d859b00"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/scalar_integer.hpp"
+          },
+          "hashes": {
+            "sha-256": "1392f8c7510446a79581740708c5f9d794db50b99c4c0c57ebb68180ef9e5ced"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/scalar_integer.inl"
+          },
+          "hashes": {
+            "sha-256": "b9b8e15dae43cc050e89dc1c521f580312cc5f8f4e0902e5fe59836cedc31eaa"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/gtc/type_ptr.hpp"
+          },
+          "hashes": {
+            "sha-256": "7d0d2eaf0695be88fcd8210c5e227ee233b1d2fc9f96d3def1fe4ab67b01b045"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/gtc/type_ptr.inl"
+          },
+          "hashes": {
+            "sha-256": "b9f59c25fbf9633f74921e87d4f3af6313be6d28afa26a4683e9cd33a059f3bd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/gtc/ulp.hpp"
+          },
+          "hashes": {
+            "sha-256": "45f2466027f52aef733def6d5933066b9982dc51cd94352ead15097873329cb8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/gtc/ulp.inl"
+          },
+          "hashes": {
+            "sha-256": "afc4f76821b57d072633a47a735fc71b9bb51eb502740710907eb371d1fc28a0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/scalar_ulp.hpp"
+          },
+          "hashes": {
+            "sha-256": "697bd3d995b56fa9c7e3cbb3adce440f231ac08eda4cf6f4bda4b36019835f60"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/scalar_ulp.inl"
+          },
+          "hashes": {
+            "sha-256": "07756ce503bed11822d294ce45c6d7f58d58eefad4dcd79f0815946b3fff38c6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/gtx/vector_angle.hpp"
+          },
+          "hashes": {
+            "sha-256": "351106ec3e042d56b63fbd9a03f605309fe05c598f81e0a72bd753f05da806dd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/gtx/quaternion.hpp"
+          },
+          "hashes": {
+            "sha-256": "57db701a7741aef38e68dc0ab7ffdcb0b17dfe0100902a3c1363aad43a8cb8f7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/quaternion_exponential.hpp"
+          },
+          "hashes": {
+            "sha-256": "d054df4923c2b5cb68a56e2d1f4aa7c4cd7225c9ad43036b702b90770da39ae8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/ext/quaternion_exponential.inl"
+          },
+          "hashes": {
+            "sha-256": "7387136b1ec89ef378b2cfaa4f01e197e1bed0105d0f4022fc67db82a355ce3e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/gtx/norm.hpp"
+          },
+          "hashes": {
+            "sha-256": "ad9bcbc160d66eb817f4aa2a1511e6691c88d4a12dca7eef06deaaa214708726"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/gtx/component_wise.hpp"
+          },
+          "hashes": {
+            "sha-256": "d4c81a1b5c95f6e05d5f029efa45d8a38ca86bebe5da9a4fb7a3ad9864f7e020"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/gtx/component_wise.inl"
+          },
+          "hashes": {
+            "sha-256": "7e2a8744f92feff03eaf05282e6d9bbe7cfccc75b1a567273d287f54d7521f88"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/gtx/norm.inl"
+          },
+          "hashes": {
+            "sha-256": "e53a2ab51630071d4d3212c084ceb99b9fb998ad4ac02beb2cb60b07a8d60058"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/gtx/quaternion.inl"
+          },
+          "hashes": {
+            "sha-256": "3435e4f424efff2fa242e4d01f3277faa43f7be8fb1896c409ffa06afaba0931"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/gtx/vector_angle.inl"
+          },
+          "hashes": {
+            "sha-256": "11e7dd4ef1f104c61f94b8302f3b98b5f1911791e2334dce4bd32e8e12da0274"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/gtx/intersect.hpp"
+          },
+          "hashes": {
+            "sha-256": "12d112e271700b9775a6f502030ca240ea5373f29134d45f04cbcc2f759d3f2d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/gtx/closest_point.hpp"
+          },
+          "hashes": {
+            "sha-256": "36b1f8eabd3da963c3a7eae38db7635f2f8b6b930b716027fcc9498dd9c916b5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/gtx/closest_point.inl"
+          },
+          "hashes": {
+            "sha-256": "77d431a9988c9e33f15a3b02b7b00cdd6f16f86c56cae1a96b46f502bbf922f0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/gtx/vector_query.hpp"
+          },
+          "hashes": {
+            "sha-256": "d19ab5794192c1b7dda7566ad1be8c3410600261320e823c52527a2fd085aa7e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/gtx/vector_query.inl"
+          },
+          "hashes": {
+            "sha-256": "ad541a94d6c4e9efcad6a5fe7a6bd50f1c4ece06ab56dee28cffd3d8b066f720"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/glm.0.9.9.600/build/native/include/glm/gtx/intersect.inl"
+          },
+          "hashes": {
+            "sha-256": "6b6c36bebb6c006783152520eb85ebf2407448850aabe85dfd4bee3c3cb44fa2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/src/world.h"
+          },
+          "hashes": {
+            "sha-256": "38bac1d533feb5539c83835f5b05fc117f5776d3b236c59f9e2c188abd8334f0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/src/settings.h"
+          },
+          "hashes": {
+            "sha-256": "8e8b5ad66b67a1ee1b91fa6c814111e8f7cd35b84ddb7860d6b77ac87330a6d2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/src/model.h"
+          },
+          "hashes": {
+            "sha-256": "0ef8576893dc1170dbf80bb6eea3a4dbe01e53dc15fd9c8fb7c2213820cdec14"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/src/modelloader.h"
+          },
+          "hashes": {
+            "sha-256": "658e3c39538b2b659aa0f196eef0f3a91fa23eb6ec5efab3d563b8531b805cb7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/assimp.3.0.0/build/native/include/assimp/importer.hpp"
+          },
+          "hashes": {
+            "sha-256": "37fce8593dc3f5ab3142b3eaaa48c30094eefe3444faa05097224719955cf2bf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/assimp.3.0.0/build/native/include/assimp/types.h"
+          },
+          "hashes": {
+            "sha-256": "976584deac23c327c593ce8e130ee5872d2a10d30c1904658d71e7b5e03a1cf4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/assimp.3.0.0/build/native/include/assimp/defs.h"
+          },
+          "hashes": {
+            "sha-256": "298a834abc833ced8615bf699e930759fea338ce34d8a67ac7bd87adc82e1905"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/assimp.3.0.0/build/native/include/assimp/vector3.h"
+          },
+          "hashes": {
+            "sha-256": "2e8d6597a38a5b9f98b91849c989cedd6eca0e6512b5de7f4b5c004688f2d016"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/assimp.3.0.0/build/native/include/assimp/compiler/pushpack1.h"
+          },
+          "hashes": {
+            "sha-256": "c6deab86107d4531dffd6ecd3b57d9f1f8affa5b3a6bd1ccf14f8e7073a41808"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/assimp.3.0.0/build/native/include/assimp/compiler/poppack1.h"
+          },
+          "hashes": {
+            "sha-256": "43f4cc86434d3b387c57190831a60c09d8e253455021e7f31d85d1df5635ccde"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/assimp.3.0.0/build/native/include/assimp/vector2.h"
+          },
+          "hashes": {
+            "sha-256": "de1914c1d5c97041efab5274cb86ce681f1ccd7dfaf4ca7ffc6b24f871046f62"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/assimp.3.0.0/build/native/include/assimp/color4.h"
+          },
+          "hashes": {
+            "sha-256": "d64fd55368de6fc481a10c88c9f4290dae6530340b4a8d56c9ed3b735864b957"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/assimp.3.0.0/build/native/include/assimp/matrix3x3.h"
+          },
+          "hashes": {
+            "sha-256": "2c3c19dd2aa7809d7bdea67c9386de8439d1a7f887a24d469cc4c4008e2851ca"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/assimp.3.0.0/build/native/include/assimp/matrix4x4.h"
+          },
+          "hashes": {
+            "sha-256": "d938f8d86c2428b72d7f5a8248c7806f54dc2e71ca6cf9b2e74849c95dde2545"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/assimp.3.0.0/build/native/include/assimp/quaternion.h"
+          },
+          "hashes": {
+            "sha-256": "b42de6c8037610a3dc37ae78b86242e51ca8ad2747e8b487b41318159336fefb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/assimp.3.0.0/build/native/include/assimp/vector2.inl"
+          },
+          "hashes": {
+            "sha-256": "3b9b5b0643a946df437f566f77d851fe9d7cf253715100d521339a3897dea12f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/assimp.3.0.0/build/native/include/assimp/vector3.inl"
+          },
+          "hashes": {
+            "sha-256": "bec8f93a6479ab7fc37bc0820de758b5a899f734c2719faaf759dae7a73a446c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/assimp.3.0.0/build/native/include/assimp/color4.inl"
+          },
+          "hashes": {
+            "sha-256": "13f121daa2d5dc02b76ddac39462d1f7f739efd0e745cd86758b90cd3f736a7d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/assimp.3.0.0/build/native/include/assimp/quaternion.inl"
+          },
+          "hashes": {
+            "sha-256": "b44833291b0ecf6fe456704d1b5c8e3f8991f3b4d7af2bf7e4845af8d291bb6b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/assimp.3.0.0/build/native/include/assimp/config.h"
+          },
+          "hashes": {
+            "sha-256": "d3c66dd791124fd4101bb5c275b4977d268c3ebc4c1562b82a4c400147c96ade"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/assimp.3.0.0/build/native/include/assimp/scene.h"
+          },
+          "hashes": {
+            "sha-256": "f56bd7198641a4333146a96193310d70f9d42d0ee50ea66544e7fa02c500a59c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/assimp.3.0.0/build/native/include/assimp/texture.h"
+          },
+          "hashes": {
+            "sha-256": "a99c42074395fdeb6c28d0ca850c55f366d86b1a2f939a6c086aa244ee79f405"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/assimp.3.0.0/build/native/include/assimp/light.h"
+          },
+          "hashes": {
+            "sha-256": "6106337e4e8b6f30cd9be1630d32447c816b49dd655126d7cc35d9abbc0aa284"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/assimp.3.0.0/build/native/include/assimp/camera.h"
+          },
+          "hashes": {
+            "sha-256": "80e781273ae3bd318cea68864652d79bf1617a39f84386c76b460bd4132ce75e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/assimp.3.0.0/build/native/include/assimp/material.inl"
+          },
+          "hashes": {
+            "sha-256": "c1b9cbe08ba7ab113f3eb784a1e54b4eca6fa73129784ea70a2de8a55e3c8b79"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/assimp.3.0.0/build/native/include/assimp/postprocess.h"
+          },
+          "hashes": {
+            "sha-256": "c5296c26834449633f75680337847ea082939eb945043a34c8c4c3103784524c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/librender/include/render/shader.h"
+          },
+          "hashes": {
+            "sha-256": "faf392c5d39ecb0d471a09b23fef30fcaa001c83e1012547139a9b7ff5676977"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/src/renderer.h"
+          },
+          "hashes": {
+            "sha-256": "7cd6b3a0cbff6f22b2fc973dd04d49f8aa7b4e8a0ee8022874466a87306c8f17"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/src/io.h"
+          },
+          "hashes": {
+            "sha-256": "857686d75a58579725f3e9cb12d1ff08d7df7873866c1be32c4c87607dca7fd9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/librender/include/render/mesh.h"
+          },
+          "hashes": {
+            "sha-256": "c91db859ddd3ea2a0b676f8bee7c9ceda75ecfe63cadc168b72d02d68c72ad23"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/librender/include/render/camera.h"
+          },
+          "hashes": {
+            "sha-256": "7e31052580dc0476d19a402e616a7b05bc8362c4d70c107ca27d14b4a166f8e2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/librender/include/render/game.h"
+          },
+          "hashes": {
+            "sha-256": "8def550dbd732b04a6c8cff613091df98d814f46f649752a25c590d7888a45cf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/window.hpp"
+          },
+          "hashes": {
+            "sha-256": "7e488b99f07a72cee4669acea03322b2f5352057f44fddf98366caa5dfa91427"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/system.hpp"
+          },
+          "hashes": {
+            "sha-256": "655ed8a1bdaf3985fe504cbe4447ce55028a67e0230469e64f5af4a40133706b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/config.hpp"
+          },
+          "hashes": {
+            "sha-256": "1762f28e80a63df8f580e0a57a20dd09b7ac9389db3d8f35dc936ddb6328fccb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/system/clock.hpp"
+          },
+          "hashes": {
+            "sha-256": "1cd86caf7e6218638d2d7b290da41ead438ea438b654d57de5a7392ab61d4e62"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/system/export.hpp"
+          },
+          "hashes": {
+            "sha-256": "cfc62057cb1105073f902c3c50a3811737ba4a6c5771c42a6f476fa430d8a6be"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/system/time.hpp"
+          },
+          "hashes": {
+            "sha-256": "b280ed9b2c6c501780fa34136d4b4f2698448b6e016a1b6cf1fdd4a9c55758b3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/system/err.hpp"
+          },
+          "hashes": {
+            "sha-256": "5b416b921cd92c9af277948ae0e43b86edab01709af372764c9fcff721dd283f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/system/fileinputstream.hpp"
+          },
+          "hashes": {
+            "sha-256": "421bd74440c476e4dfec9780d9cc15a99ee0cca66215309d5e8bbda299640bc2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/system/inputstream.hpp"
+          },
+          "hashes": {
+            "sha-256": "12671c9bdcfceeea32d50d242a6258e1748aec731690b81d69a4e81d0ed4ef6b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/system/noncopyable.hpp"
+          },
+          "hashes": {
+            "sha-256": "3b696f1692f206bb18b3d4eadd8911990307fd82fb4336295f13a377ff0571d2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/system/lock.hpp"
+          },
+          "hashes": {
+            "sha-256": "8dda138fa2cfd8ff648df5a862e7e054ca872df4b9cc695c8796ffd79c47989e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/system/memoryinputstream.hpp"
+          },
+          "hashes": {
+            "sha-256": "2bb63edddbbe314bd1e6de5ef8ef75e9cd054b46d80c4612872d63439b75e1d1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/system/mutex.hpp"
+          },
+          "hashes": {
+            "sha-256": "5e1ebd8668441ddf123c9ed210617762ce1fedcc0cdbd482243797623f6caf59"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/system/sleep.hpp"
+          },
+          "hashes": {
+            "sha-256": "ba33d302722478748999cde89adebe47151f5fdea50feabdd29260ebe1e34b71"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/system/string.hpp"
+          },
+          "hashes": {
+            "sha-256": "cc5e77ef50b66dab1983fec48fcd717292ae85c111f1dae713cff319bed6ae3d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/system/utf.hpp"
+          },
+          "hashes": {
+            "sha-256": "a2888dcdb8e6f5c3134bf059cd19a38f1362734ab14c5585f627d44db2f4c150"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/system/utf.inl"
+          },
+          "hashes": {
+            "sha-256": "beeaa05b903f9af7e5b42a96f66095ad05998b0870f047388d5b8856f16ba9b8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/system/string.inl"
+          },
+          "hashes": {
+            "sha-256": "a3e230c6ca24dc167b0aacd4ea457712bbb0f6f041421d0134660a8190cd0828"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/system/thread.hpp"
+          },
+          "hashes": {
+            "sha-256": "fbe55400bc77b5681335f53ded50087d052eaa8936845802e61e76fbc65f5588"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/system/thread.inl"
+          },
+          "hashes": {
+            "sha-256": "73c7a0cc1c09f20d4199c0b8a1a3ae4910f363f0303519ac6c969346a596eb83"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/system/threadlocal.hpp"
+          },
+          "hashes": {
+            "sha-256": "098b126101f5a9e539510a040ebcba6f4a16682bfda136bc2d2944f900409997"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/system/threadlocalptr.hpp"
+          },
+          "hashes": {
+            "sha-256": "dd79927962318f4ba1dc24fc3a9ed5719b48e33ac8fe2f465cfdc9b8b28490a8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/system/threadlocalptr.inl"
+          },
+          "hashes": {
+            "sha-256": "30a1c14f6586507497aec160ab3b7094be98d1a1ca14d4ba531aec993c652bee"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/system/vector2.hpp"
+          },
+          "hashes": {
+            "sha-256": "57c62df7bec08a051a8378041b53dea5aec9d04e3324a4d9cf940ba8f6898274"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/system/vector2.inl"
+          },
+          "hashes": {
+            "sha-256": "9bc6f3fae52e9b585b066e6699c10de896f128c97506a346a927f2dc3d0dda42"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/system/vector3.hpp"
+          },
+          "hashes": {
+            "sha-256": "992441c064f9d21f719cce64d823ad0a3e3b79a09204898c1563fafa0b05af5e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/system/vector3.inl"
+          },
+          "hashes": {
+            "sha-256": "0e970cd75f8ecbd8b1f83029d3342a226b35451662c859f7b6e18e1d32fb86fa"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/window/clipboard.hpp"
+          },
+          "hashes": {
+            "sha-256": "ab317104d636d1e66aedddfc474ff15d9dfe3e688cdb825870159831c721ba5f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/window/export.hpp"
+          },
+          "hashes": {
+            "sha-256": "6cd522d674c70f5492f66d94cea87bdac24f076da783637dea57a3a9beaf12d2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/window/context.hpp"
+          },
+          "hashes": {
+            "sha-256": "69151f666cdacc98c0322fe09d382ea80985da5f033b087e699320d6891cb040"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/window/glresource.hpp"
+          },
+          "hashes": {
+            "sha-256": "b44d186acff49d7d498fe81fe5ecf203605e7fc064394b6eb813459a27d905e7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/window/contextsettings.hpp"
+          },
+          "hashes": {
+            "sha-256": "c1ae907cd177ebdbff0667029e1e2202e1caeb66c0e118606341d224b5a0e154"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/window/cursor.hpp"
+          },
+          "hashes": {
+            "sha-256": "054e12c30d8570617433107688bfbda1607ec16e19a48d324c046b07d02915ec"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/window/event.hpp"
+          },
+          "hashes": {
+            "sha-256": "28492d9252ab85b709351fff6a467f121cc837c58642fffcc676c16a37b61e6d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/window/joystick.hpp"
+          },
+          "hashes": {
+            "sha-256": "a61fb42edaeb44142540583547adafc90786ba494e1901047970efa5225e298a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/window/keyboard.hpp"
+          },
+          "hashes": {
+            "sha-256": "19cb6df669d30623c1ac31e9e2503ff3325884289b4273683a9c9159306a051e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/window/mouse.hpp"
+          },
+          "hashes": {
+            "sha-256": "1878c3483304277c2cc2bc8553907d74f7cecb32b0c51db5f58c11d94894b348"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/window/sensor.hpp"
+          },
+          "hashes": {
+            "sha-256": "1de188a57c72413c30fd78d30abe6c35c5f0e9925d3f1c25663bfebf8d4834df"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/window/touch.hpp"
+          },
+          "hashes": {
+            "sha-256": "f3e1cede4de3f146db348ce96e2eb450907de7196ff5c26c2d899b527e51d606"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/window/videomode.hpp"
+          },
+          "hashes": {
+            "sha-256": "ee9e20b2615d7c24b88780adf63695c3c412820e43079df9a962a13da312e2a1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/window/window.hpp"
+          },
+          "hashes": {
+            "sha-256": "ed678d31ea745dc0008d962f3a63ae7f15fc78bbfc089e49081e8bf217b13f45"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/window/windowhandle.hpp"
+          },
+          "hashes": {
+            "sha-256": "cbc8d5e009eead3ffb03f93441b4410f1fdf9f3fd533934a58afb57d68cf0cb0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/window/windowstyle.hpp"
+          },
+          "hashes": {
+            "sha-256": "0ad992204792b1a57b311c579fc4232f71dff78c1a85dd6504e987f98dc1a903"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/librender/include/render/graphics.h"
+          },
+          "hashes": {
+            "sha-256": "af2f6f38fe6920fe5d0d85a91b038f20c9a87f9fb59a9282284addb6b6b8f333"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/graphics.hpp"
+          },
+          "hashes": {
+            "sha-256": "978fe22d7a4888de276163f4bc935221364429e025f9fe49d3ada0cf52dbbaa1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/graphics/blendmode.hpp"
+          },
+          "hashes": {
+            "sha-256": "20d9112ea7b3afce8f4d131dae014d78b94ddf75763827b0c089e147d42e7b4e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/graphics/export.hpp"
+          },
+          "hashes": {
+            "sha-256": "f64d92379e1f430c0bb46b232dd8cefbd88d7793a352dc4741f6a08dfbd409e2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/graphics/circleshape.hpp"
+          },
+          "hashes": {
+            "sha-256": "acde76ca9f3e0b187c737203f6dca8269deb9a489907467fd83ea944713bea95"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/graphics/shape.hpp"
+          },
+          "hashes": {
+            "sha-256": "0cf902fddc5bb8779e5d6b537c4ed404114da011fc1fa6b2816c102b9a97117f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/graphics/drawable.hpp"
+          },
+          "hashes": {
+            "sha-256": "0491686a9f5cb0e3a85d649d3b81c7fae13ea2a269f8c03ab3d28f1d0744d90e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/graphics/renderstates.hpp"
+          },
+          "hashes": {
+            "sha-256": "53a166c7791d37b356f96ef0821d897a87770d3f275c9bf851b70216471e7ed8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/graphics/transform.hpp"
+          },
+          "hashes": {
+            "sha-256": "85bfdf518295e882f11e3d232295cfcf02a9064ed2858bfb5628c939fc69dd4f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/graphics/rect.hpp"
+          },
+          "hashes": {
+            "sha-256": "5f3b54ebf1ac31ef16b5e22eab087c637ad0581bbdf1adffc08d2044484909a6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/graphics/rect.inl"
+          },
+          "hashes": {
+            "sha-256": "560ab9f638a501679174a98e3d167e91114309aa3d5c62085ce37abd87f19721"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/graphics/transformable.hpp"
+          },
+          "hashes": {
+            "sha-256": "6e09d0a3b83892be0760c4e42a167ebb304769d181f89b716cd42afbdb919cc8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/graphics/vertexarray.hpp"
+          },
+          "hashes": {
+            "sha-256": "3cd540f35c7ca6b8454a4ff3c68f0b4eb9068dd382505a71f5c1e95faa33fef9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/graphics/vertex.hpp"
+          },
+          "hashes": {
+            "sha-256": "4de54e63344d0f92bd81f6bcf581a096c0abe5cfa55caa296255ee7026a6cb12"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/graphics/color.hpp"
+          },
+          "hashes": {
+            "sha-256": "8d7511317301c4829d86aa154027f4091c1cee845ac3d375e9fee865090ccacd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/graphics/primitivetype.hpp"
+          },
+          "hashes": {
+            "sha-256": "a89b62962d369cdd981e1749ccc69e12e96362aaf637d682351292b730e8c725"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/graphics/convexshape.hpp"
+          },
+          "hashes": {
+            "sha-256": "150b9839a50b522a5a268d520433fe3df32a438bb96026e3a6cab4b59e965b4e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/graphics/font.hpp"
+          },
+          "hashes": {
+            "sha-256": "58feafa972c253081c6f96ec23b8ad9280c11047b68a6732142b841ce077db8c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/graphics/glyph.hpp"
+          },
+          "hashes": {
+            "sha-256": "a3ea69f767e0f510d084a96419c4a6ae71de3ec89120f766058fcd04118b48f1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/graphics/texture.hpp"
+          },
+          "hashes": {
+            "sha-256": "72fd8625411e561fec11f529032a8c3f58fef6b36b89e9e66021010a858827b4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/graphics/image.hpp"
+          },
+          "hashes": {
+            "sha-256": "845ce07d2ec6b5410e40bb367af5290bdb043f786c7c894c15d0c7a337205b44"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/graphics/rectangleshape.hpp"
+          },
+          "hashes": {
+            "sha-256": "11c88ed13313b3e8e82117c76927c6db3107905517c0673bb993ba9c3aed7d49"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/graphics/rendertarget.hpp"
+          },
+          "hashes": {
+            "sha-256": "fac7521b3fa2ad53348fe86c6dfdca5e69d7ab9376bf98d597dcb03164e1e8d1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/graphics/view.hpp"
+          },
+          "hashes": {
+            "sha-256": "1a29977decfb2138f4068b8936ddb1f1b54d663e5b73efb0e03cd219b1baf081"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/graphics/rendertexture.hpp"
+          },
+          "hashes": {
+            "sha-256": "c7c34d57eaba9dea76dfca08ad123e6bf3053b910dd687a1215e22335836d661"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/graphics/renderwindow.hpp"
+          },
+          "hashes": {
+            "sha-256": "0e6499d59f1679019d989da3bed08b365855a2157bb8c1ac1c72abd942f9b46b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/graphics/shader.hpp"
+          },
+          "hashes": {
+            "sha-256": "29f086870693fa08c1c283a76f9632801290e4c915970fa9f19a7f4624c571b5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/graphics/glsl.hpp"
+          },
+          "hashes": {
+            "sha-256": "58ed693ff5e50d70e1dd5ca2b8995beb586fdd4f230ce4ebbd0af58b18f647e5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/graphics/glsl.inl"
+          },
+          "hashes": {
+            "sha-256": "2679f746dfc707df67a09f4c7a5958faf35b1dd868ccfad89ff7b512ea7ae7d5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/graphics/sprite.hpp"
+          },
+          "hashes": {
+            "sha-256": "bcda08ffcba7846d53a6372dd67cda9019d1973819c107f18265384ee15a09a0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/graphics/text.hpp"
+          },
+          "hashes": {
+            "sha-256": "0aab91c1df5b4b4c1b4f8212263fa590ff5ebed5110e8ec9acf700ff89bd677f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/packages/sfml_system.2.5.1/build/native/include/sfml/graphics/vertexbuffer.hpp"
+          },
+          "hashes": {
+            "sha-256": "d545b7a054cc827e34c4235784dad620663f7dd706cebfceac3739ddd013bbc8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/bash-model/librender/include/render/input.h"
+          },
+          "hashes": {
+            "sha-256": "ebf7db7dd14346c868dfba5973a3a9bf59c1004957b233859b97a7d49c0c53e7"
+          }
+        }
+      ]
+    }
+  ]
+}
