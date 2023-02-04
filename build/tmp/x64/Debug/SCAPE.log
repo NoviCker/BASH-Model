@@ -1,14 +1,1 @@
-﻿  osim.cpp
-C:\Dev\bash-model\src\osim.h(17,20): warning C4244: '=': conversion from 'const double' to 'T', possible loss of data
-          with
-          [
-              T=float
-          ]
-C:\Dev\bash-model\src\osim.h(26,20): warning C4244: '=': conversion from 'const double' to 'T', possible loss of data
-          with
-          [
-              T=float
-          ]
-C:\Dev\bash-model\src\osim.cpp(59,22): warning C4018: '<': signed/unsigned mismatch
-C:\Dev\bash-model\src\osim.cpp(388,23): warning C4018: '<': signed/unsigned mismatch
-  SCAPE.vcxproj -> C:\Dev\bash-model\build\x64\Debug\SCAPE.exe
+﻿  SCAPE.vcxproj -> C:\Dev\bash-model\build\x64\Debug\SCAPE.exe

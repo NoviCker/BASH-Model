@@ -6,12 +6,14 @@
 // OSIM
 //
 OSIM::OSIM(const std::string& filepath_osim, const std::string& filepath_scale, const std::string& filepath_mot, const std::string& filepath_sto) {
-	try {
+
 
 		std::cerr << filepath_osim << std::endl;
+
+
 		// load the osim file
 		osimModel = OpenSim::Model(filepath_osim);
-
+		try {
 		// Initialize the system and get the state representing the state system
 		state = osimModel.initSystem();
 

@@ -1,0 +1,227 @@
+---------------------------------------------------------------
+Animation of 3D Human Surface Models for Biomechanical Analysis
+---------------------------------------------------------------
+OSIM file: C:\Dev\BASH-Model\data\OSIM\runMaD\runMaD_Scaled.osim
+No ScaleFile file was specified. Using generic model.
+MOT file: C:\Dev\BASH-Model\data\OSIM\runMaD\Running_Sim_Kinem1.mot
+No .sto file was specified. Skipping visualization of muscle activity...
+No Baseline-Model directory was specified. Using default...
+Baseline-Model: ./data/baselineModel/
+---------------------------------------------------------------
+Updating Model file from 30000 to latest format...
+Model name 'Running Model For Motions In All Directions' contains whitespace. It was renamed 'RunningModelForMotionsInAllDirections'.
+Loaded model RunningModelForMotionsInAllDirections from file C:\Dev\BASH-Model\data\OSIM\runMaD\runMaD_Scaled.osim
+WARNING: Body toes_r has invalid inertia. 
+SimTK Exception thrown at MassProperties.h:548:
+  Error detected by Simbody method Inertia::Inertia(moments,products): Diagonals of an Inertia matrix must satisfy the triangle inequality; got 9.6626e-05,0.000193252,0.00096626.
+  (Required condition 'Ixx+Iyy+Slop>=Izz && Ixx+Izz+Slop>=Iyy && Iyy+Izz+Slop>=Ixx' was not met.)
+
+toes_r Body's inertia being reset to:
+
+[0.000571647,0,0]
+[0,0.000571647,0]
+[0,0,0.000571647]
+
+WARNING: Body toes_l has invalid inertia. 
+SimTK Exception thrown at MassProperties.h:548:
+  Error detected by Simbody method Inertia::Inertia(moments,products): Diagonals of an Inertia matrix must satisfy the triangle inequality; got 9.6626e-05,0.000193252,0.00096626.
+  (Required condition 'Ixx+Iyy+Slop>=Izz && Ixx+Izz+Slop>=Iyy && Iyy+Izz+Slop>=Ixx' was not met.)
+
+toes_l Body's inertia being reset to:
+
+[0.000571647,0,0]
+[0,0.000571647,0]
+[0,0,0.000571647]
+
+Storage: read data file =C:\Dev\BASH-Model\data\OSIM\runMaD\Running_Sim_Kinem1.mot (nr=50 nc=34)
+Converted motion data from degrees to radians.
+Number of time states: 50
+Successfully loaded SCAPE model from: ./data/SCAPE/
+Updating Model file from 30000 to latest format...
+Model name 'Running Model For Motions In All Directions' contains whitespace. It was renamed 'RunningModelForMotionsInAllDirections'.
+Loaded model RunningModelForMotionsInAllDirections from file C:\Dev\BASH-Model\data\OSIM\runMaD\runMaD_Scaled.osim
+WARNING: Body toes_r has invalid inertia. 
+SimTK Exception thrown at MassProperties.h:548:
+  Error detected by Simbody method Inertia::Inertia(moments,products): Diagonals of an Inertia matrix must satisfy the triangle inequality; got 9.6626e-05,0.000193252,0.00096626.
+  (Required condition 'Ixx+Iyy+Slop>=Izz && Ixx+Izz+Slop>=Iyy && Iyy+Izz+Slop>=Ixx' was not met.)
+
+toes_r Body's inertia being reset to:
+
+[0.000571647,0,0]
+[0,0.000571647,0]
+[0,0,0.000571647]
+
+WARNING: Body toes_l has invalid inertia. 
+SimTK Exception thrown at MassProperties.h:548:
+  Error detected by Simbody method Inertia::Inertia(moments,products): Diagonals of an Inertia matrix must satisfy the triangle inequality; got 9.6626e-05,0.000193252,0.00096626.
+  (Required condition 'Ixx+Iyy+Slop>=Izz && Ixx+Izz+Slop>=Iyy && Iyy+Izz+Slop>=Ixx' was not met.)
+
+toes_l Body's inertia being reset to:
+
+[0.000571647,0,0]
+[0,0.000571647,0]
+[0,0,0.000571647]
+
+Retrieving model's default pose
+Scaling model
+
+               MODEL: RunningModelForMotionsInAllDirections
+         coordinates: 37
+              forces: 92
+           actuators: 92
+             muscles: 92
+            analyses: 0
+              probes: 0
+              bodies: 20
+              joints: 20
+         constraints: 0
+             markers: 62
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+Running tool .
+Frame 0 (t=0):	total squared error = 3.08536e-05, marker error: RMS=0.000818981, max=0.00296965 (LWRA)
+InverseKinematicsTool completed 1 frames in 0.606s
+
+Updating Model file from 30000 to latest format...
+Model name 'Running Model For Motions In All Directions' contains whitespace. It was renamed 'RunningModelForMotionsInAllDirections'.
+Loaded model RunningModelForMotionsInAllDirections from file C:\Dev\BASH-Model\data\OSIM\runMaD\runMaD_Scaled.osim
+WARNING: Body toes_r has invalid inertia. 
+SimTK Exception thrown at MassProperties.h:548:
+  Error detected by Simbody method Inertia::Inertia(moments,products): Diagonals of an Inertia matrix must satisfy the triangle inequality; got 9.6626e-05,0.000193252,0.00096626.
+  (Required condition 'Ixx+Iyy+Slop>=Izz && Ixx+Izz+Slop>=Iyy && Iyy+Izz+Slop>=Ixx' was not met.)
+
+toes_r Body's inertia being reset to:
+
+[0.000571647,0,0]
+[0,0.000571647,0]
+[0,0,0.000571647]
+
+WARNING: Body toes_l has invalid inertia. 
+SimTK Exception thrown at MassProperties.h:548:
+  Error detected by Simbody method Inertia::Inertia(moments,products): Diagonals of an Inertia matrix must satisfy the triangle inequality; got 9.6626e-05,0.000193252,0.00096626.
+  (Required condition 'Ixx+Iyy+Slop>=Izz && Ixx+Izz+Slop>=Iyy && Iyy+Izz+Slop>=Ixx' was not met.)
+
+toes_l Body's inertia being reset to:
+
+[0.000571647,0,0]
+[0,0.000571647,0]
+[0,0,0.000571647]
+
+Storage: read data file =./data/cache/mapping/OSIMinSCAPEpose.mot (nr=1 nc=38)
+Converted motion data from degrees to radians.
+Number of time states: 1
+Transforming model's pose for frame 0
+Transforming model's pose for frame 1
+Transforming model's pose for frame 2
+Transforming model's pose for frame 3
+Transforming model's pose for frame 4
+Transforming model's pose for frame 5
+Transforming model's pose for frame 6
+Transforming model's pose for frame 7
+Transforming model's pose for frame 8
+Transforming model's pose for frame 9
+Transforming model's pose for frame 10
+Transforming model's pose for frame 11
+Transforming model's pose for frame 12
+Transforming model's pose for frame 13
+Transforming model's pose for frame 14
+Transforming model's pose for frame 15
+Transforming model's pose for frame 16
+Transforming model's pose for frame 17
+Transforming model's pose for frame 18
+Transforming model's pose for frame 19
+Transforming model's pose for frame 20
+Transforming model's pose for frame 21
+Transforming model's pose for frame 22
+Transforming model's pose for frame 23
+Transforming model's pose for frame 24
+Transforming model's pose for frame 25
+Transforming model's pose for frame 26
+Transforming model's pose for frame 27
+Transforming model's pose for frame 28
+Transforming model's pose for frame 29
+Transforming model's pose for frame 30
+Transforming model's pose for frame 31
+Transforming model's pose for frame 32
+Transforming model's pose for frame 33
+Transforming model's pose for frame 34
+Transforming model's pose for frame 35
+Transforming model's pose for frame 36
+Transforming model's pose for frame 37
+Transforming model's pose for frame 38
+Transforming model's pose for frame 39
+Transforming model's pose for frame 40
+Transforming model's pose for frame 41
+Transforming model's pose for frame 42
+Transforming model's pose for frame 43
+Transforming model's pose for frame 44
+Transforming model's pose for frame 45
+Transforming model's pose for frame 46
+Transforming model's pose for frame 47
+Transforming model's pose for frame 48
+Transforming model's pose for frame 49
+Projecting model to ScapeSpace for frame 0
+Projecting model to ScapeSpace for frame 1
+Projecting model to ScapeSpace for frame 2
+Projecting model to ScapeSpace for frame 3
+Projecting model to ScapeSpace for frame 4
+Projecting model to ScapeSpace for frame 5
+Projecting model to ScapeSpace for frame 6
+Projecting model to ScapeSpace for frame 7
+Projecting model to ScapeSpace for frame 8
+Projecting model to ScapeSpace for frame 9
+Projecting model to ScapeSpace for frame 10
+Projecting model to ScapeSpace for frame 11
+Projecting model to ScapeSpace for frame 12
+Projecting model to ScapeSpace for frame 13
+Projecting model to ScapeSpace for frame 14
+Projecting model to ScapeSpace for frame 15
+Projecting model to ScapeSpace for frame 16
+Projecting model to ScapeSpace for frame 17
+Projecting model to ScapeSpace for frame 18
+Projecting model to ScapeSpace for frame 19
+Projecting model to ScapeSpace for frame 20
+Projecting model to ScapeSpace for frame 21
+Projecting model to ScapeSpace for frame 22
+Projecting model to ScapeSpace for frame 23
+Projecting model to ScapeSpace for frame 24
+Projecting model to ScapeSpace for frame 25
+Projecting model to ScapeSpace for frame 26
+Projecting model to ScapeSpace for frame 27
+Projecting model to ScapeSpace for frame 28
+Projecting model to ScapeSpace for frame 29
+Projecting model to ScapeSpace for frame 30
+Projecting model to ScapeSpace for frame 31
+Projecting model to ScapeSpace for frame 32
+Projecting model to ScapeSpace for frame 33
+Projecting model to ScapeSpace for frame 34
+Projecting model to ScapeSpace for frame 35
+Projecting model to ScapeSpace for frame 36
+Projecting model to ScapeSpace for frame 37
+Projecting model to ScapeSpace for frame 38
+Projecting model to ScapeSpace for frame 39
+Projecting model to ScapeSpace for frame 40
+Projecting model to ScapeSpace for frame 41
+Projecting model to ScapeSpace for frame 42
+Projecting model to ScapeSpace for frame 43
+Projecting model to ScapeSpace for frame 44
+Projecting model to ScapeSpace for frame 45
+Projecting model to ScapeSpace for frame 46
+Projecting model to ScapeSpace for frame 47
+Projecting model to ScapeSpace for frame 48
+Projecting model to ScapeSpace for frame 49
+Muscle: Find area of influence on surface
+Muscle: Compute color values to visualize musclular acitvity
+frameLimit: 60
+VSync: 0
+GL_Version: 4.6.0 NVIDIA 528.24
+settings.depthBits: 24
+settings.stencilBits: 8
+settings.antialiasingLevel: 0
+settings.majorVersion: 4
+Loading shader: standard
+Loading shader: model
+Loading shader: floor
+Loading shader: color
+Loading shader: skinned

@@ -1,10 +1,11 @@
-prefix=C:/projects/opensim-build-releases/opensim-core-dep-install/simbody
+prefix=${pcfiledir}/../..
+
 libdir=${prefix}/lib
-includedir=${prefix}/include
+includedir=${prefix}/../include
 
 Name: simbody
 Description: Simbody Libraries
-Version: 3.6
+Version: 3.8
 Requires:
-Libs: -L${libdir} -lSimTKsimbody -lSimTKmath -lSimTKcommon -lliblapack -llibblas
-CFlags: -I${includedir}
+Libs: -L"${libdir}" -lSimTKsimbody -lSimTKmath -lSimTKcommon -lliblapack -llibblas
+CFlags: -I"${includedir}" -std=c++11

@@ -127,7 +127,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>.\include\SCAPE;..\vcpkg\packages\gsl_x64-windows\include;..\vcpkg\packages\suitesparse_x64-windows\include;..\vcpkg\packages\suitesparse_x64-windows\include\suitesparse\</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\include\SCAPE;..\..\vcpkg\packages\suitesparse_x64-windows\include;..\..\vcpkg\packages\suitesparse_x64-windows\include\suitesparse;..\..\vcpkg\packages\gsl_x64-windows\include</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>
       </ForcedIncludeFiles>
       <PrecompiledHeaderFile>

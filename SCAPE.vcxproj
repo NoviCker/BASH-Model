@@ -141,7 +141,7 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeaderFile>
       </PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>.\libRender\include;.\libSCAPE\include;..\vcpkg\packages\glew_x64-windows\include\;..\vcpkg\packages\sfml_x64-windows\include\SFML\;..\vcpkg\packages\gsl_x64-windows\include\gsl\;..\vcpkg\packages\suitesparse_x64-windows\include\suitesparse\;..\vcpkg\packages\suitesparse_x64-windows\include\;.\packages\OpenSim\Simbody\include\;.\packages\OpenSim\;.\packages\OpenSim\OpenSim\;.\packages\OpenSim\OpenSim\Simbody\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\libRender\include;.\libSCAPE\include;..\vcpkg\packages\glew_x64-windows\include\;..\vcpkg\packages\sfml_x64-windows\include\SFML\;..\vcpkg\packages\gsl_x64-windows\include\;..\vcpkg\packages\suitesparse_x64-windows\include\suitesparse\;..\vcpkg\packages\suitesparse_x64-windows\include\;.\packages\OpenSim4\OpenSim;.\packages\OpenSim4\OpenSim\Simbody\include\;.\packages\OpenSim4\</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>
       </ForcedIncludeFiles>
       <ShowIncludes>
@@ -152,8 +152,8 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>..\vcpkg\packages\sfml_x64-windows\lib\;..\vcpkg\packages\glew_x64-windows\lib\;..\vcpkg\packages\gsl_x64-windows\lib\;..\vcpkg\packages\suitesparse_x64-windows\lib\;.\packages\OpenSim\OpenSim\lib\;.\packages\OpenSim\OpenSim\Simbody\lib\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>liblapack.lib;libblas.lib;libamd.lib;libbtf.lib;libcamd.lib;libccolamd.lib;libcholmod.lib;libcolamd.lib;libcxsparse.lib;libklu.lib;libldl.lib;libspqr.lib;libumfpack.lib;metis.lib;suitesparseconfig.lib;gsl.lib;SimTKsimbody.lib;SimTKmath.lib;SimTKcommon.lib;osimTools.lib;osimAnalyses.lib;osimActuators.lib;osimSimulation.lib;osimCommon.lib;osimLepton.lib;opengl32.lib;glu32.lib;glew32.lib;sfml-graphics.lib;sfml-window.lib;sfml-system.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\vcpkg\packages\sfml_x64-windows\lib\;..\vcpkg\packages\glew_x64-windows\lib\;..\vcpkg\packages\gsl_x64-windows\lib\;..\vcpkg\packages\suitesparse_x64-windows\lib\;.\packages\OpenSim4\OpenSim\lib\;.\packages\OpenSim4\OpenSim\Simbody\lib\;..\vcpkg\packages\metis_x64-windows\lib\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>liblapack.lib;libblas.lib;libamd.lib;libbtf.lib;libcamd.lib;libccolamd.lib;libcholmod.lib;libcolamd.lib;libcxsparse.lib;libklu.lib;libldl.lib;libspqr.lib;libumfpack.lib;metis.lib;suitesparseconfig.lib;gsl.lib;SimTKsimbody_d.lib;SimTKmath_d.lib;SimTKcommon_d.lib;osimActuators_d.lib;osimAnalyses_d.lib;osimCommon_d.lib;osimLepton_d.lib;osimSimulation_d.lib;osimTools_d.lib;opengl32.lib;glu32.lib;glew32.lib;sfml-graphics.lib;sfml-window.lib;sfml-system.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
       <Command>

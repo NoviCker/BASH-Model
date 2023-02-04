@@ -1,7 +1,7 @@
 @echo off
 
 set osim=./data/OSIM/runMaD/runMaD_Scaled.osim
-set scale=
+set scale=./data/OSIM/runMaD/Running_Sim_Scale.xml
 set mot=./data/OSIM/runMaD/Running_Sim_Kinem.mot
 set sto=./data/OSIM/runMaD/Running_Sim_MusFor.sto
 set frames=
