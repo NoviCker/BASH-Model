@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LocalDebuggerCommandArguments>--osim C:\Dev\BASH-Model\data\OSIM\runMaD\runMaD_Scaled.osim --mot C:\Dev\BASH-Model\data\OSIM\runMaD\Running_Sim_Kinem1.mot</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerEnvironment>PATH=C:\Dev\vcpkg\installed\x64-windows\debug\bin;C:\Dev\vcpkg\installed\x64-windows\bin;C:\Users\Dodge\Downloads\Compressed\opensim-4.0-msvc-17-x64-Debug\x64-Debug\bin;%PATH%
+$(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
+  </PropertyGroup>
+</Project>
